@@ -34,6 +34,11 @@ def twoSum(nums, target):
     indices = range(len(nums))
     def comp(x, y):
         return nums[x] - nums[y]
+    indices = sorted(indices, cmp=comp)
+    left = 0
+    right = len(nums) - 1
+    while left < right:
+        sums = nums[indices[left]] + nums[indices[right]]
 ```
 
 
