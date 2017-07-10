@@ -18,12 +18,18 @@ Output:
 
 ## Analysis
 
+#### Two Pointers
+
 This is a two-pointers problem, the solution is pretty straight forward.
 
 1. sort the list.
 2. Init pointers. left = 0, right = len\(nums\) - 1. if sum of nums\[left\] and nums\[right\] is bigger than target, right - 1, if smaller, left + 1.
 
 > The result should be the original indices, here we used an array to store the original indices.
+
+#### Hash
+
+
 
 ## Solution
 
