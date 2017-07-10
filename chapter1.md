@@ -29,16 +29,21 @@ This is a two-pointers problem, the solution is pretty straight forward.
 
 ```py
 def twoSum(nums, target):
-    if len(nums) < 2:
-        return []
-    indices = range(len(nums))
+    indexes = range(len(nums))
     def comp(x, y):
         return nums[x] - nums[y]
-    indices = sorted(indices, cmp=comp)
+    indexes = sorted(indexes, cmp=comp)
     left = 0
-    right = len(nums) - 1
+    right = len(indexes) - 1
     while left < right:
-        sums = nums[indices[left]] + nums[indices[right]]
+        sums = nums[indexes[left]] + nums[indexes[right]]
+        if sums == target:
+            return [indexes[left], indexes[right]]
+        if sums < target:
+            left += 1
+        else:
+            right -= 1
+    return []
 ```
 
 
