@@ -32,6 +32,8 @@ def twoSum(nums, target):
     if len(nums) < 2:
         return []
     indices = range(len(nums))
+    def comp(x, y):
+        return nums[x] - nums[y]
 ```
 
 
