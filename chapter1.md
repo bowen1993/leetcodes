@@ -16,6 +16,10 @@ Output:
 [0,1]  // nums[0] + nums[1] = 9
 ```
 
+
+
+> Companies: LinkedIn, Uber, Airbnb, Facebook, Amazon, Microsoft, Apple, Yahoo, Dropbox, Bloomberg, Yelp, Adobe
+
 ## Analysis
 
 #### Two Pointers
@@ -28,8 +32,6 @@ This is a two-pointers problem, the solution is pretty straight forward.
 > The result should be the original indices, here we used an array to store the original indices.
 
 #### Hash
-
-
 
 ## Solution
 
