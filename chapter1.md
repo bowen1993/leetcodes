@@ -31,7 +31,13 @@ This is a two-pointers problem, the solution is pretty straight forward.
 
 
 
+#### Hash
+
+This problem could also be solved with hash \(for nums\[i\], storing index of other half of the target\). Details in the code.
+
 ## Solution
+
+#### Two Pointers
 
 ```py
 def twoSum(nums, target):
@@ -50,6 +56,18 @@ def twoSum(nums, target):
         else:
             right -= 1
     return []
+```
+
+#### Hash
+
+```py
+def twoSum(nums, target):
+    if len(nums) < 2:
+        return []
+    buff_dict = {}
+    for i in xrange(len(nums)):
+        if nums[i] in buff_dict:
+            
 ```
 
 
