@@ -29,8 +29,6 @@ This is a two-pointers problem, the solution is pretty straight forward.
 
 > The result should be the original indices, here we used an array to store the original indices.
 
-
-
 #### Hash
 
 This problem could also be solved with hash \(for nums\[i\], storing index of other half of the target\). Details in the code.
@@ -67,7 +65,10 @@ def twoSum(nums, target):
     buff_dict = {}
     for i in xrange(len(nums)):
         if nums[i] in buff_dict:
-            
+            return [buff_dict[nums[i]], i]
+        else:
+            buff_dict[target - nums[i]] = i
+    return []
 ```
 
 
