@@ -16,7 +16,7 @@ Given`"pwwkew"`, the answer is`"wke"`, with the length of 3. Note that the answe
 
 ## Analysis
 
-This is a two-pointer problem. It can be solved with sliding window. 
+This is a two-pointer problem. It can be solved with sliding window.
 
 The template for sliding window:
 
@@ -31,6 +31,28 @@ for i in range(n):
             break
     #update i state
 ```
+
+## Solution
+
+```py
+def lengthOfLongestSubstring(s):
+    if s is None or len(s) == 0:
+        return 0
+    window = []
+    ans = 0
+    n = len(s)
+    j = 0
+    for i in xrange(n):
+        while ( j < n ) and ( s[j] not in window ):
+            window.append(s[j])
+            ans = max(ans, j - i + 1)
+            j += 1
+        window.remove(s[i])
+    
+    return ans
+```
+
+
 
 
 
