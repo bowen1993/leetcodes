@@ -26,7 +26,9 @@ The median is (2 + 3)/2 = 2.5
 
 > Companies: Google, Zenefits, Microsoft, Apple, Yahoo, Dropbox, Adobe
 
+## Analysis
 
+For an array a with length n, the median would a\[n/2 + 1\] \(n is odd\) or \(a\[n/2\] + a\[n/2 + 1\]\) / 2 \(n is even\).
 
 
 
