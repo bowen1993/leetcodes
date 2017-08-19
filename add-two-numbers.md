@@ -15,8 +15,6 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 This is not a hard one. Use a variable as a carry symbol, iterate both of those two linked lists and add each node.
 
-
-
 ## Solution
 
 ```py
