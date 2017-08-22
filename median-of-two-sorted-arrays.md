@@ -30,5 +30,5 @@ The median is (2 + 3)/2 = 2.5
 
 For an array a with length n, the median would a\[n/2 + 1\] \(n is odd\) or \(a\[n/2\] + a\[n/2 + 1\]\) / 2 \(n is even\). Here if we can find kth smallest value in two arrays, then we can find the median.
 
-
+To find the kth smallest number in two arrays.
 
