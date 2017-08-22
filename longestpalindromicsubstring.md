@@ -40,5 +40,5 @@ Time: O\(N^2\) Space: O\(n^2\)
 
 This problem can be solved by Dynamic Programming method.
 
-
+Here we use 2-d array dp to store status. dp\[i\]\[j\] means whether s\[i:j\] is a palindromic string or not.
 
