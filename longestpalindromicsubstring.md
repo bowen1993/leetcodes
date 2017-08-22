@@ -34,5 +34,11 @@ Output:
 
 ## Analysis
 
+#### Dynamic Programming
+
+Time: O\(N^2\) Space: O\(n^2\)
+
+This problem can be solved by Dynamic Programming method.
+
 
 
