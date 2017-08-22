@@ -34,5 +34,35 @@ To find the kth smallest number in two arrays, A and B.
 
 First, we compare A\[k/2\] and B\[k/2\], if A\[k/2\] &gt; B\[k/2\], then that number will not be in the first numbers in array B, so we can remove the first k/2 numbers from B, and find \(k - k/2\)th smallest number in those remaining numbers. If k/2 is bigger than the size of a array, then the kth number would not be in the first k/2 numbers in the other array. Recursively, we can find kth number.
 
- 
+The code in solution section may be a better explanation.
+
+
+
+## Solution
+
+```py
+def findMedianSortedArrays(nums1, nums2):
+    totalLength = len(nums1) + len(nums2)
+    if totalLength % 2 == 1:
+        return findKth(nums1, 0, nums2, 0, totalLength / 2 + 1)
+    else:
+        return float(findKth(nums1, 0, nums2, 0, totalLength / 2) + findKth(nums1, 0, nums2, 0, totalLength / 2 + 1)) / 2.0
+
+def findKth(A, A_start, B, B_start, k):
+    if A_start >= len(A):
+        return B[B_start + k - 1]
+    if B_start >= len(B):
+        return A[A_start + k - 1]
+    if k ==1:
+        return min(A[A_start], B[B_start])
+    A_element = A[A_start + k/2 - 1] if (A_start + k/2 - 1) < len(A) else sys.maxint
+    B_element = B[B_start + k/2 - 1] if (B_start + k/2 - 1) < len(B) else sys.maxint
+
+    if A_element < B_element:
+        return findKth(A, A_start + k/2, B, B_start, k - k/2)
+    else:
+        return findKth(A, A_start, B, B_start + k/2, k - k/2)
+```
+
+
 
