@@ -50,7 +50,30 @@ Then if we found max value of j - i + 1, we found the longest palindromic substr
 
 ## Solution
 
+```py
+def longestPalindrome(s):
+    if len(s) == 0:
+        return None
+    if len(s) == 1:
+        return s
+    
+    longest = s[0:1]
+    length = len(s)
+    maxLen = 1
+    dp = [[False for _ in xrange(length)] for __ in xrange(length)]
 
+    for k in xrange(length):
+        for i in xrange(length - k):
+            j = i + k
+            if s[i] == s[j] and (j - i <= 2 or dp[i+1][j-1]):
+                dp[i][j] = True
+
+                if j - i + 1 > maxLen:
+                    maxLen = j - i + 1
+                    longest = s[i:j+1]
+    
+    return longest
+```
 
 
 
