@@ -28,14 +28,11 @@ Input:
 
 Output:
  "bb"
-
 ```
-
-
 
 > Companies: Amazon, Microsoft, Bloomberg
 
-
+## Solution
 
 
 
