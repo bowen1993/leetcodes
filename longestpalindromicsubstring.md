@@ -48,11 +48,7 @@ dp\[i\]\[j\] = s\[i\] == s\[j\] && \(j - i &lt;= 2 \|\| dp\[i+1\]\[j-1\]\)
 
 Then if we found max value of j - i + 1, we found the longest palindromic substring.
 
-
-
-#### Manchester Algorithm
-
-
+#### 
 
 ## Solution
 
