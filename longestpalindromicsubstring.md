@@ -32,9 +32,7 @@ Output:
 
 > Companies: Amazon, Microsoft, Bloomberg
 
-## Solution
-
-
+## Analysis
 
 
 
