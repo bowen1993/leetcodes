@@ -48,6 +48,12 @@ dp\[i\]\[j\] = s\[i\] == s\[j\] && \(j - i &lt;= 2 \|\| dp\[i+1\]\[j-1\]\)
 
 Then if we found max value of j - i + 1, we found the longest palindromic substring.
 
+
+
+#### Manchester Algorithm
+
+
+
 ## Solution
 
 ```py
@@ -56,7 +62,7 @@ def longestPalindrome(s):
         return None
     if len(s) == 1:
         return s
-    
+
     longest = s[0:1]
     length = len(s)
     maxLen = 1
@@ -71,7 +77,7 @@ def longestPalindrome(s):
                 if j - i + 1 > maxLen:
                     maxLen = j - i + 1
                     longest = s[i:j+1]
-    
+
     return longest
 ```
 
