@@ -7,4 +7,5 @@
 * [Median of Two Sorted Arrays](median-of-two-sorted-arrays.md)
 * [LongestPalindromicSubstring](longestpalindromicsubstring.md)
 * [ZigZag Conversion](zigzag-conversion.md)
+* [Reverse Integer](reverse-integer.md)
 
