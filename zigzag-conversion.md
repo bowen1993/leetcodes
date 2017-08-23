@@ -1,4 +1,4 @@
-# ZigZag Conversion
+# ZigZag Conversion \*
 
 ## Problem Description
 
@@ -31,8 +31,4 @@ should return
 ## Analysis
 
 The idea is to use the remainder \(index%period\) to determine which line the character at the given index will be. The period is calculated first based on nRows. A dictionary with remainder:line as key:value is then created \(this can also be done with a list or a tuple\). Once these are done, we simply go through s, assign each character to its new line, and then combine these lines to get the converted string.
-
-
-
-
 
