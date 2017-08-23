@@ -11,11 +11,30 @@ Reverse digits of an integer.
 
 > Companies: Apple, Bloomberg
 
-
-
 ## Analysis
 
-Easy question.
+Easy question.Use % to get each digit.
+
+If the result is bigger than 32-bit signed integer \(2147483647\) , return 0.
+
+## Solution
+
+```py
+def reverse(x):
+    isNeg = x < 0
+    if isNeg:
+        x = -x
+    r = 0
+    while x != 0:
+        last = x % 10
+        x = x / 10
+        r = r * 10 + last
+    if isNeg:
+        r = -r
+    if r < -2147483647 or r > 2147483647:
+        r = 0
+    return r
+```
 
 
 
