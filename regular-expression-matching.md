@@ -29,5 +29,13 @@ isMatch("aab", "c*a*b") → true
 
 #### Dynamic Programming
 
+Status:
+
+dp\[i\]\[j\] means the match status of p\[:i\] and s\[:j\]
+
+> dp\[0\]\[0\] means two empty strings. Here for dp\[i\]\[j\], we should use p\[i-1\] and s\[j-1\], not p\[i\] and s\[j\]
+
+
+
 
 
