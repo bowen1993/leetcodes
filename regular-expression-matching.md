@@ -29,13 +29,13 @@ isMatch("aab", "c*a*b") → true
 
 #### Dynamic Programming
 
-Status:
+**Status**:
 
 dp\[i\]\[j\] means the match status of p\[:i\] and s\[:j\]
 
 > dp\[0\]\[0\] means two empty strings. Here for dp\[i\]\[j\], we should use p\[i-1\] and s\[j-1\], not p\[i\] and s\[j\]
 
-Function:
+**Function**:
 
 for dp\[i\]\[j\]:
 
@@ -47,15 +47,25 @@ if p\[i-1\] == '\*': dp\[i\]\[j\] = dp\[i-2\]\[j\] \|\| \( \(s\[j-1\] == p\[i-2\
 
 > if current p character is \*  dp\[i\]\[j\] would be true if dp\[i-2\]\[j\] is true \(last two character in p would be x\*, which can match with empty string\). or dp\[i\]\[j-1\] is true and current s character matches last p character.
 
-Initialization:
+**Initialization**:
 
 dp\[0\]\[0\] = true
 
 for j = 0 \(s is empty\), p\[:i\] should be able to match empty string \(x\* format\)
 
+**Answer**:
+
+dp\[-1\]\[-1\]
 
 
 
+## Solution:
+
+#### Dynamic Programming
+
+```py
+
+```
 
 
 
