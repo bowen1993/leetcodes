@@ -25,9 +25,11 @@ isMatch("ab", ".*") → true
 isMatch("aab", "c*a*b") → true
 ```
 
-
-
 > Companies: Google, Uber, Airbnb, Facebook, Twitter
+
+
+
+## Analysis
 
 
 
