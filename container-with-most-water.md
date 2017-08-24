@@ -18,5 +18,21 @@ To find the biggest container, we only move the lowest line each time. See proof
 
 ## Solution
 
+```py
+maxValue = -1
+    left = 0
+    right = len(height) - 1
+    while left < right:
+        area = (right - left) * min(height[left], height[right])
+        maxValue = max(area, maxValue)
+        if height[left] < height[right]:
+            left += 1
+        else:
+            right -= 1
+    return maxValue
+```
+
+
+
 [^1]: [proof of moving lines](https://aaronice.gitbooks.io/lintcode/content/two_pointers/container_with_most_water.html)
 
