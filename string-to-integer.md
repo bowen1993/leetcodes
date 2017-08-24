@@ -12,9 +12,32 @@ Implementatoito convert a string to an integer.
 
 ## Analysis
 
-This is a simple question. 
+This is a simple question.
 
 ## Solution
+
+```py
+def myAtoi(s):
+    r = 0
+    isNegative = False
+    s = s.strip()
+    if s.startswith('-') or s.startswith('+'):
+        isNegative = s.startswith('-')
+        s = s[1:]
+    for c in s:
+        try:
+            newDitig = int(c)
+            r = r * 10 + newDitig
+        except:
+            break
+    if isNegative:
+        r = -r
+    if r > 2147483647:
+        r = 2147483647
+    if r < -2147483648:
+        r = -2147483648
+    return r
+```
 
 
 
