@@ -8,11 +8,7 @@ Note: You may not slant the container andnis at least 2.
 
 > Companies: Bloomberg
 
-
-
 ## Analysis
 
-
-
-
+This is a two pointer problem
 
