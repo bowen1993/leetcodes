@@ -10,5 +10,11 @@ Implementatoito convert a string to an integer.
 
 > Companies: Amazon, Microsoft, Bloomberg, Uber
 
+## Analysis
+
+This is a simple question. 
+
+## Solution
+
 
 
