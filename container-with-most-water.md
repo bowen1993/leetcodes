@@ -10,5 +10,7 @@ Note: You may not slant the container andnis at least 2.
 
 ## Analysis
 
-This is a two pointer problem
+This is a two pointer problem.
+
+The volume of contained water is related to both the lowest high of two lines and distance between two lines.
 
