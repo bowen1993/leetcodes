@@ -18,5 +18,7 @@ A solution set is:
 
 ## Analysis
 
+For each element, find two other elements which sum equals negative of current element \(2Sum problem\).
 
+Sort the array first.
 
