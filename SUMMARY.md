@@ -9,4 +9,5 @@
 * [ZigZag Conversion](zigzag-conversion.md)
 * [Reverse Integer](reverse-integer.md)
 * [String to Integer](string-to-integer.md)
+* [Palindrome Number](palindrome-number.md)
 
