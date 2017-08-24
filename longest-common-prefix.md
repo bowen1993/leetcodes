@@ -8,6 +8,8 @@ Write a function to find the longest common prefix string amongst an array of st
 
 See Solution
 
+> Companies: Yelp
+
 ## Solution
 
 ```py

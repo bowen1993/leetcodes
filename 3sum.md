@@ -20,6 +20,8 @@ A solution set is:
 
 For each element, find two other elements which sum equals negative of current element \(2Sum problem\).
 
+> Companies: Amazon, Microsoft, Bloomberg, Facebook, Adobe, Works Applications
+
 ## Solution
 
 ```py
