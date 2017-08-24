@@ -14,3 +14,7 @@ This is a two pointer problem.
 
 The volume of contained water is related to both the lowest high of two lines and distance between two lines.
 
+To find the biggest container, we only move the lowest line each time. See proof here[^1]
+
+[^1]: [proof of moving lines](https://aaronice.gitbooks.io/lintcode/content/two_pointers/container_with_most_water.html)
+
