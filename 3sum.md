@@ -20,5 +20,3 @@ A solution set is:
 
 
 
-
-
