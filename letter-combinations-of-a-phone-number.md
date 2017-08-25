@@ -6,7 +6,7 @@ Given a digit string, return all possible letter combinations that the number co
 
 A mapping of digit to letters \(just like on the telephone buttons\) is given below.
 
-![](http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad2.svg/200px-Telephone-keypad2.svg.png)
+ ![](http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad2.svg/200px-Telephone-keypad2.svg.png)
 
 ```
 Input:
