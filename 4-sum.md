@@ -17,5 +17,11 @@ A solution set is:
 ]
 ```
 
+## Analysis
 
+A K Sum problem can be solved by solving K-1 Sum problem with target as target - nums\[i\], where i is index of nums.
+
+Here for 4Sum problem, we iterate all elements in nums, with each elements, we use 3Sum to find target that euqals to target-nums\[i\]
+
+ 
 
