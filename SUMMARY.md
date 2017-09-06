@@ -26,4 +26,5 @@
 * [325. Maximum Size Subarray Sum Equals k](maximum-size-subarray-sum-equals-k.md)
 * [301. Remove Invalid Parentheses](remove-invalid-parentheses.md)
 * [67. Add Binary](add-binary.md)
+* [311. Sparse Matrix Multiplication](sparse-matrix-multiplication.md)
 
