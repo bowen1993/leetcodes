@@ -23,4 +23,7 @@
 * [20. Valid Parentheses](valid-parentheses.md)
 * [21. Merge Two Sorted Lists](merge-two-sorted-lists.md)
 * [22. Generate Parentheses](generate-parentheses.md)
+* [325. Maximum Size Subarray Sum Equals k](maximum-size-subarray-sum-equals-k.md)
+* [301. Remove Invalid Parentheses](remove-invalid-parentheses.md)
+* [67. Add Binary](add-binary.md)
 
