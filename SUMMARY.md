@@ -30,4 +30,5 @@
 * [314. Binary Tree Vertical Order Traversal](binary-tree-vertical-order-traversa.md)
 * [273. Integer to English Words](integer-to-english-words.md)
 * [278. First Bad Version](first-bad-version.md)
+* [91. Decode Ways](decode-ways.md)
 
