@@ -33,4 +33,6 @@
 * [91. Decode Ways](decode-ways.md)
 * [253. Meeting Rooms II](meeting-rooms-ii.md)
 * [277. Find the Celebrity](find-the-celebrity.md)
+* [158. Read N Characters Given Read4 II - Call multiple times](read-n-characters-given-read4-ii-call-multiple-times.md)
+* [157. Read N Characters Given Read4](read-n-characters-given-read4.md)
 
