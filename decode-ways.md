@@ -24,13 +24,23 @@ The number of ways decoding`"12"`is 2.
 
 This problem can be solved with Dynamic Programming
 
-dp\[i\] means number of decode ways for string s\[0:i\]. 
+If string starts with zero, return 0.
 
-dp\[0\] = 1 for an empty string only have one decode way
 
-dp\[1\] = 1 if s\[0\] != 0 else 0
 
-dp\[n\] = dp\[n-1\] + dp\[n-2\] if s\[n\] can combine with s\[n-1\]
+dp\[i\] means number of decode ways for string s\[0:i\].
+
+dp\[0\] = 1 
+
+dp\[1\] = 1
+
+dp\[n\] = dp\[n-1\] + dp\[n-2\] if s\[n\] can combine with s\[n-1\] else dp\[n\] = dp\[n-1\]
+
+**Optimize: Here we only use two variables, because only last two states matter.**
+
+## Solution
+
+
 
 
 
