@@ -43,4 +43,5 @@
 * [206. Reverse Linked List](reverse-linked-list.md)
 * [283. Move Zeroes](move-zeroes.md)
 * [121. Best Time to Buy and Sell Stock](best-time-to-buy-and-sell-stock.md)
+* [38. Count and Say](count-and-say.md)
 
