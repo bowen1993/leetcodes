@@ -38,4 +38,6 @@
 * [200. Number of Islands](number-of-islands.md)
 * [297. Serialize and Deserialize Binary Tree](serialize-and-deserialize-binary-tree.md)
 * [282. Expression Add Operators](expression-add-operators.md)
+* [461. Hamming Distance](hamming-distance.md)
+* [146. LRU Cache](lru-cache.md)
 
