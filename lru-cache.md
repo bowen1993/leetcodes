@@ -34,7 +34,7 @@ Use a linked list. For both get and put, move accessed item to the tail of the l
 
 ## Solution
 
-```
+```py
 class LRUCache(object):
     class Node(object):
         def __init__(self,key,value):
@@ -54,7 +54,7 @@ class LRUCache(object):
         self.tail = LRUCache.Node(-1,-1)
         self.head.next = self.tail
         self.tail.prev = self.head
-        
+
 
     def get(self, key):
         """
@@ -67,7 +67,7 @@ class LRUCache(object):
         curr.next.prev = curr.prev
         self.moveToTail(curr)
         return curr.value
-        
+
 
     def set(self, key, value):
         """
@@ -91,7 +91,6 @@ class LRUCache(object):
         self.tail.prev.next = node
         node.prev = self.tail.prev
         self.tail.prev = node
-        
 ```
 
 

@@ -40,4 +40,7 @@
 * [282. Expression Add Operators](expression-add-operators.md)
 * [461. Hamming Distance](hamming-distance.md)
 * [146. LRU Cache](lru-cache.md)
+* [206. Reverse Linked List](reverse-linked-list.md)
+* [283. Move Zeroes](move-zeroes.md)
+* [121. Best Time to Buy and Sell Stock](best-time-to-buy-and-sell-stock.md)
 
